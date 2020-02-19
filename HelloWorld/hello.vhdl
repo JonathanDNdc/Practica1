@@ -1,5 +1,7 @@
-use std.textio.all;
+--  Programa Hola mundo.
+use std.textio.all; -- Importa el paquete estandar textio.
 
+--  Declara la entidad de diseño sin puertos.
 entity hello_world is
 end hello_world;
 
