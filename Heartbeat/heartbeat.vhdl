@@ -8,6 +8,7 @@ end heartbeat;
 architecture behaviour of heartbeat is
     constant clk_period : time := 10 ns;
 begin
+    -- Definición del proceso de reloj.
     clk_process : process
     begin
         clk <= '0';
